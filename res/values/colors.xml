@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <color name="header_action">#ffffff</color><!-- 头部动作按钮的颜色 -->
+    <color name="header_action_disabled">#80ffffff</color><!-- 头部动作不可用按钮的颜色 -->
+      <!-- ListView item背景 -->
+    <color name="list_item_normal">#edf4fa</color>
+    <color name="list_item_highline">#edf4fa</color>
+    <color name="list_item_focused">#dbe8f3</color>
+    <color name="list_item_pressed">#dbe8f3</color>
+    <color name="list_item_disabled">#dbe8f3</color>
+    <color name="list_item_more">#e5eaee</color>
+    
+</resources>

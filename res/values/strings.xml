@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DataEntry</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="view">查看</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="cancel">取消</string>
+    <string name="menuName">商品名称：</string>
+    <string name="menuPrice">商品价格：</string>
+    <string name="menuPic">商品图片：</string>
+    <string name="saleUnit">销售单位：</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+	<string name="release_to_refresh">释放立即刷新</string>
+	<string name="refreshing">正在刷新…</string>
+	<string name="not_updated_yet">暂未更新过</string>
+	<string name="updated_at">上次更新于%1$s前</string>
+	<string name="updated_just_now">刚刚更新</string>
+	<string name="time_error">时间有问题</string>
+     <string name="label_pull_to_refresh_tap">点击或下拉进行更新</string>
+     <string name="back">返回</string>
+     <string name="save">保存</string>
+
+</resources>

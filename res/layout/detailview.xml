@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <include layout="@layout/include_header" />
+
+    <LinearLayout
+        android:id="@+id/llContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:padding="10dp"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:background="#E0E0E0"
+                android:padding="1dp" >
+
+                <TextView
+                    android:layout_height="60dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:text="商品名称"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvMenuName"
+                    android:layout_height="60dp"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:textSize="20dip" />
+            </TableRow>
+
+            <TableRow
+                android:background="#E0E0E0"
+                android:paddingBottom="1dp"
+                android:paddingLeft="1dp"
+                android:paddingRight="1dp" >
+
+                <TextView
+                    android:layout_height="60dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:text="商品价格"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvPrice"
+                    android:layout_height="60dp"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:textSize="20dip" />
+            </TableRow>
+
+            <TableRow
+                android:background="#E0E0E0"
+                android:paddingBottom="1dp"
+                android:paddingLeft="1dp"
+                android:paddingRight="1dp" >
+
+                <TextView
+                    android:layout_height="60dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:text="商品单位"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvUnit"
+                    android:layout_height="60dp"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:textSize="20dip" />
+            </TableRow>
+
+            <TableRow
+                android:background="#E0E0E0"
+                android:paddingBottom="1dp"
+                android:paddingLeft="1dp"
+                android:paddingRight="1dp" >
+
+                <TextView
+                    android:layout_height="200dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:text="商品图片"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#ffffff" >
+                    <ImageView
+                        android:id="@+id/detailImageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_launcher" />
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <include layout="@layout/include_footer" />
+
+</LinearLayout>
