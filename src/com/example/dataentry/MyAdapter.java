@@ -36,18 +36,18 @@ public class MyAdapter extends BaseAdapter {
 			//gridView = inflater.inflate(R.layout.item, null);
 			
 			ImageView img = (ImageView) gridView .findViewById(R.id.imageView1);
-			TextView textView1 = (TextView) gridView.findViewById(R.id.textView1);
-			TextView textView2 = (TextView) gridView.findViewById(R.id.tvMenuName);
-			TextView textView3 = (TextView) gridView.findViewById(R.id.textView3);
+//			TextView textView1 = (TextView) gridView.findViewById(R.id.textView1);
+//			TextView textView2 = (TextView) gridView.findViewById(R.id.tvMenuName);
+//			TextView textView3 = (TextView) gridView.findViewById(R.id.textView3);
 			//Button button1= (Button) gridView.findViewById(R.id.btnSave);
 			//Button button2= (Button) gridView.findViewById(R.id.button2);
 			
 			Map<String, Object> m= srcTable.get(position);
 			
 			img.setImageResource(R.drawable.ic_launcher);
-			textView1.setText(m.get("MenuName").toString());
-			textView2.setText(m.get("MenuPrice").toString());
-			textView3.setText(m.get("SaleUnit").toString());
+//			textView1.setText(m.get("MenuName").toString());
+//			textView2.setText(m.get("MenuPrice").toString());
+//			textView3.setText(m.get("SaleUnit").toString());
 			
 		/*	button1.setOnClickListener(new Button.OnClickListener(){
 				@Override

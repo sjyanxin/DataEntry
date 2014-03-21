@@ -16,6 +16,7 @@ public class DownLoadImageTask extends AsyncTask<String, Void, Bitmap> {
 		this.imageView = imageView;
 	}
 
+	
 	@Override
 	protected Bitmap doInBackground(String... urls) {
 		// TODO Auto-generated method stub

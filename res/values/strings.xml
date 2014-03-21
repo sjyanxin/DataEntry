@@ -8,10 +8,10 @@
     <string name="edit">编辑</string>
     <string name="delete">删除</string>
     <string name="cancel">取消</string>
-    <string name="menuName">商品名称：</string>
-    <string name="menuPrice">商品价格：</string>
-    <string name="menuPic">商品图片：</string>
-    <string name="saleUnit">销售单位：</string>
+    <string name="menuName">商品名称</string>
+    <string name="menuPrice">商品价格</string>
+    <string name="menuPic">商品图片</string>
+    <string name="saleUnit">销售单位</string>
     <string name="pull_to_refresh">下拉刷新</string>
 	<string name="release_to_refresh">释放立即刷新</string>
 	<string name="refreshing">正在刷新…</string>

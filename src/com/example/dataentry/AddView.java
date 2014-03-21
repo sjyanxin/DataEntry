@@ -28,6 +28,9 @@ import com.example.task.DownLoadImageTask;
 
 public class AddView extends Activity implements OnClickListener {
 
+	private static final String IMAGE_FILE_LOCATION = "file:///sdcard/temp.jpg";//temp file
+	Uri imageUri = Uri.parse(IMAGE_FILE_LOCATION);//The Uri to store the big bitmap
+	
 	Intent intent = null;
 	EditText tvName;
 	EditText tvPrice;
@@ -39,7 +42,6 @@ public class AddView extends Activity implements OnClickListener {
 	Button btnBack;
 	boolean isEdit;
 	String menuPic;
-
 	int id;
 
 	@Override
@@ -132,10 +134,7 @@ public class AddView extends Activity implements OnClickListener {
 
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-		if (resultCode == Activity.RESULT_OK) {
-			/**
-			 * 当选择的图片不为空的话，在获取到图片的途径
-			 */
+		if (resultCode == Activity.RESULT_OK) {			
 			Uri uri = data.getData();
 
 			try {
